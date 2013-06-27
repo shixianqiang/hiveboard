@@ -1,0 +1,30 @@
+#
+if ARCH_PUV3
+
+choice
+	prompt "Board Selection"
+	default PUV3_DB0913
+
+config PUV3_FPGA_DLX200
+	select ARCH_FPGA
+	select FPGA_DLX200
+	bool "FPGA board (DLX200)"
+
+config PUV3_DB0913
+	bool "DEBUG board (0913)"
+
+config PUV3_NB0916
+	bool "NetBook board (0916)"
+	select HAVE_PWM
+
+config PUV3_SMW0919
+	bool "Security Mini-Workstation board (0919)"
+
+endchoice
+
+config PUV3_PM
+	bool
+	depends on !ARCH_FPGA
+	default y
+
+endif

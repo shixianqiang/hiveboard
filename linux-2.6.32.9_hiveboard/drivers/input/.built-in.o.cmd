@@ -1,0 +1,1 @@
+cmd_drivers/input/built-in.o :=  unicore32-linux-ld -EL    -r -o drivers/input/built-in.o drivers/input/input-core.o drivers/input/input-polldev.o drivers/input/mousedev.o drivers/input/evdev.o drivers/input/touchscreen/built-in.o 

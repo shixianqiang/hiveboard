@@ -1,0 +1,27 @@
+config SND_SEP0611_SOC
+	tristate "ASoC for the SEP0611"
+	depends on ARCH_SEP0611
+	default y
+	help
+	  Say Y or M if you want to add support for codecs attached to
+	  the SEP0611 I2S interface. You will also need
+	  to select the audio interfaces to support below.
+	  
+choice
+	prompt "SEP0611 Codec Select"
+	depends on SND_SEP0611_SOC
+	default CODEC_WM8976
+
+config CODEC_WM8976
+	bool "WM8976"
+	help
+	  Say Y or M if you want to add support for codec WM8976 on SEP0611
+	
+config CODEC_CS3700
+	bool "CS3700"
+	help
+	  Say Y or M if you want to add support for codec CS3700 on SEP0611
+
+
+endchoice
+

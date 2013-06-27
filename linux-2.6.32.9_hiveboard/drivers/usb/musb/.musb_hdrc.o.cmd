@@ -1,0 +1,1 @@
+cmd_drivers/usb/musb/musb_hdrc.o := unicore32-linux-ld -EL    -r -o drivers/usb/musb/musb_hdrc.o drivers/usb/musb/musb_core.o drivers/usb/musb/sep0611_usb_phy3343.o drivers/usb/musb/musb_virthub.o drivers/usb/musb/musb_host.o drivers/usb/musb/musbhsdma.o 

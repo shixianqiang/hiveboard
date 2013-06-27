@@ -1,0 +1,126 @@
+config FB_SEP0611_NUM
+	int "Number of framebuffer's layers"
+	depends on FB_SEP0611 
+	default "1"
+	help
+	  SEP0611 LCD controller supports at most four layers.
+	  You can set the number between 1 and 4, and the default
+	  number is 1.
+
+choice
+	prompt "SEP0611 LCD TYPE"
+	depends on FB_SEP0611
+	default FB_SEP0611_LCD_AT070TN93
+
+config FB_SEP0611_LCD_AT070TN93
+	bool "AT070TN93 LCD support(800*480)"
+	
+config FB_SEP0611_LCD_AT070TN90
+	bool "AT070TN90 LCD support(800*480)"
+	
+config FB_SEP0611_LCD_HSD050
+	bool "HSD050GT09 LCD support(800*480)"
+	
+endchoice
+
+menuconfig FB_SEP0611_LAYERS_MODE
+	bool "BPP for framebuffer layers"
+	depends on FB_SEP0611
+	default y
+
+choice FB_SEP0611_LAYER0
+	bool "framebuffer layer0's BPP"
+	depends on FB_SEP0611_LAYERS_MODE
+	default FB_SEP0611_LAYER0_BPP16
+
+config FB_SEP0611_LAYER0_BPP16
+	bool "16 bpp"
+	depends on FB_SEP0611 
+
+config FB_SEP0611_LAYER0_BPP32
+	bool "32 bpp"
+	depends on FB_SEP0611 
+endchoice
+
+choice FB_SEP0611_LAYER1
+	bool "framebuffer layer1's BPP or YUV"
+	depends on FB_SEP0611_LAYERS_MODE
+	default FB_SEP0611_LAYER1_BPP16
+
+config FB_SEP0611_LAYER1_BPP16
+	bool "16 bpp"
+	depends on FB_SEP0611 
+
+config FB_SEP0611_LAYER1_BPP32
+	bool "32 bpp"
+	depends on FB_SEP0611
+
+config FB_SEP0611_LAYER1_YUV444 
+	bool "yuv444"
+	depends on FB_SEP0611
+
+config FB_SEP0611_LAYER1_YUV422
+	bool "yuv422"
+	depends on FB_SEP0611
+
+config FB_SEP0611_LAYER1_YUV420
+	bool "yuv420"
+	depends on FB_SEP0611
+
+config FB_SEP0611_LAYER1_YUV420_SEMI
+	bool "yuv420-semi"
+	depends on FB_SEP0611
+endchoice
+
+choice FB_SEP0611_LAYER2
+	bool "framebuffer layer2's BPP"
+	depends on FB_SEP0611_LAYERS_MODE
+	default FB_SEP0611_LAYER2_BPP16
+
+config FB_SEP0611_LAYER2_BPP16
+	bool "16 bpp"
+	depends on FB_SEP0611 
+
+config FB_SEP0611_LAYER2_BPP32
+	bool "24 bpp unpacked"
+	depends on FB_SEP0611 
+endchoice
+
+choice FB_SEP0611_LAYER3
+	bool "framebuffer layer3' BPP"
+	depends on FB_SEP0611_LAYERS_MODE
+	default FB_SEP0611_LAYER3_BPP2
+
+config FB_SEP0611_LAYER3_BPP1_A
+	bool "1 bpp include transparent"
+	depends on FB_SEP0611
+
+config FB_SEP0611_LAYER3_BPP1_B
+	bool "1 bpp"
+	depends on FB_SEP0611
+
+config FB_SEP0611_LAYER3_BPP2_A
+	bool "2 bpp include transparent"
+	depends on FB_SEP0611
+
+config FB_SEP0611_LAYER3_BPP2_B
+	bool "2 bpp"
+	depends on FB_SEP0611
+endchoice
+
+config FB_SEP0611_DOUBLE_BUFFER
+	bool "sep0611fb double buffer support"
+	depends on FB_SEP0611
+
+config SEP0611_OVERLAY
+	tristate "sep0611 overlay support"
+	depends on FB_SEP0611
+	default y
+
+config SEP0611_BACKLIGHT
+	tristate "Backlight Driver for sep0611"
+	depends on LEDS_CLASS && FB_SEP0611
+	default y
+	help
+	  Say Y to enable the backlight driver on sep0611 based boards.
+

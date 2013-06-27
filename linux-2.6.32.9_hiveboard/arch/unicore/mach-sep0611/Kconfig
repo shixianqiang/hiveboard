@@ -1,0 +1,54 @@
+config MACH_SEP0611
+	bool
+	default y
+
+choice
+	prompt "Select The Target Board"
+	depends on ARCH_SEP0611
+	default HIVEBOARD
+
+config TIGER_TEST_BOARD
+	bool "Tiger Test Board"
+	help
+	  Say Y or N if you want to add support tiger test board	  
+
+config TIGER_DEMO_BOARD
+	bool "Tiger Demo Board"
+	help
+	  Say Y or N if you want to add support tiger demo board
+
+config TIGER_SPDW_BOARD
+	bool "Tiger Spreadwin Board"
+	help
+	  Say Y or N if you want to add support tiger spreadwin board
+
+config HIVEBOARD
+        bool "Hiveboard"
+        help
+          Say Y or N if you want to add support Hiveboard
+
+
+endchoice
+
+config SEP_CLK_800
+   bool "SEP clock use 804/201/402MHz"
+   depends on CPU_FREQ_DEFAULT_GOV_PERFORMANCE 
+   help
+     Support board, Say Y here if you
+     want to use 804/201/402Mhz (you have to change the core voltage and use DDR2 RAM)
+
+config SEP_CLK_600
+   bool "SEP clock use 600/201/402MHz"
+   depends on CPU_FREQ_DEFAULT_GOV_PERFORMANCE && !SEP_CLK_800 
+   help
+     Support board, Say Y here if you
+     want to use 600/201/402Mhz (you have to change the core voltage and use DDR2 RAM)
+
+config SEP_CLK_500
+   bool "SEP clock use 504/201/402MHz"
+   depends on CPU_FREQ_DEFAULT_GOV_PERFORMANCE && !SEP_CLK_800  && !SEP_CLK_600
+   help
+     Support board, Say Y here if you
+     want to use 504/201/402Mhz (you have to change the core voltage and use DDR2 RAM)
+
+

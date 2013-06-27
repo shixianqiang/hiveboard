@@ -1,0 +1,15 @@
+include include/asm-generic/Kbuild.asm
+
+unifdef-y += hwcap.h
+
+#####
+# Auto Generate the files that only include the corresponding asm-generic file
+#   6 files in 27-uc: errno.h fcntl.h ioctl.h poll.h resource.h siginfo.h
+
+define cmd_asmgeneric
+	(set -e; \
+	 echo '#include <asm-generic/$(notdir $@)>' )	> $@
+endef
+
+%.h:
+	$(call cmd,asmgeneric)

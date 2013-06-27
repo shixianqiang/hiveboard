@@ -1,0 +1,469 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUDIO_NAME	cs3700.c	32;"	d	file:
+CAPTURE	i2s_dma.h	25;"	d
+CAPT_CH	i2s_dma.h	31;"	d
+CS3700_FORMATS	cs3700.c	666;"	d	file:
+CS3700_NUM_REG	cs3700.c	35;"	d	file:
+CS3700_RATES	cs3700.c	662;"	d	file:
+CS3700_VERSION	cs3700.c	33;"	d	file:
+CTRL_MODE	sep0611-i2s.h	27;"	d
+DEV_TO_DEV	i2s_dma.h	/^	DEV_TO_DEV,$/;"	e	enum:dma_trans_type
+DEV_TO_MEM	i2s_dma.h	/^	DEV_TO_MEM,$/;"	e	enum:dma_trans_type
+FIXED_PLL_SIZE	wm8976.h	107;"	d
+HP_DET_DELAY	sep0611_wm8976.c	87;"	d	file:
+I2S_PM_REGS_NUM	sep0611-i2s.c	402;"	d	file:
+MASTER_MODE_HARDWARE	sep0611-i2s.h	23;"	d
+MASTER_MODE_SOFTWARE	sep0611-i2s.h	24;"	d
+MEM_TO_DEV	i2s_dma.h	/^	MEM_TO_DEV,$/;"	e	enum:dma_trans_type
+MEM_TO_MEM	i2s_dma.h	/^	MEM_TO_MEM = 0,$/;"	e	enum:dma_trans_type
+PLAYBACK	i2s_dma.h	24;"	d
+PLAY_CH	i2s_dma.h	30;"	d
+RUNNING	i2s_dma.h	27;"	d
+SEP0611_I2S_RATES	sep0611-i2s.c	450;"	d	file:
+SEP0611_I2S_RX_FMTS	sep0611-i2s.c	458;"	d	file:
+SEP0611_I2S_TX_FMTS	sep0611-i2s.c	455;"	d	file:
+SEP0611_PCM_FMTS	sep0611-pcm.c	50;"	d	file:
+SEP0611_PCM_RATES	sep0611-pcm.c	45;"	d	file:
+SLAVE_MODE	sep0611-i2s.h	22;"	d
+STOPED	i2s_dma.h	28;"	d
+WM8976_3D	wm8976.h	49;"	d
+WM8976_ADC	wm8976.h	28;"	d
+WM8976_ADCBOOST	wm8976.h	53;"	d
+WM8976_ADCOSR	wm8976.h	74;"	d
+WM8976_ADCOSR_128	wm8976.h	100;"	d
+WM8976_ADCOSR_64	wm8976.h	99;"	d
+WM8976_ADCVOL	wm8976.h	29;"	d
+WM8976_ADD	wm8976.h	21;"	d
+WM8976_ALC1	wm8976.h	41;"	d
+WM8976_ALC2	wm8976.h	42;"	d
+WM8976_ALC3	wm8976.h	43;"	d
+WM8976_BCLKDIV	wm8976.h	71;"	d
+WM8976_BCLK_DIV	wm8976.c	/^	WM8976_BCLK_DIV,$/;"	e	enum:wm8976_clk_id	file:
+WM8976_BCLK_DIV_1	wm8976.h	89;"	d
+WM8976_BCLK_DIV_16	wm8976.h	93;"	d
+WM8976_BCLK_DIV_2	wm8976.h	90;"	d
+WM8976_BCLK_DIV_32	wm8976.h	94;"	d
+WM8976_BCLK_DIV_4	wm8976.h	91;"	d
+WM8976_BCLK_DIV_8	wm8976.h	92;"	d
+WM8976_BEEP	wm8976.h	50;"	d
+WM8976_CACHEREGNUM	wm8976.h	64;"	d
+WM8976_CLOCK	wm8976.h	20;"	d
+WM8976_COMP	wm8976.h	19;"	d
+WM8976_DAC	wm8976.h	24;"	d
+WM8976_DACLIM1	wm8976.h	35;"	d
+WM8976_DACLIM2	wm8976.h	36;"	d
+WM8976_DACOSR	wm8976.h	73;"	d
+WM8976_DACOSR_128	wm8976.h	97;"	d
+WM8976_DACOSR_64	wm8976.h	96;"	d
+WM8976_DACVOLL	wm8976.h	25;"	d
+WM8976_DACVOLR	wm8976.h	26;"	d
+WM8976_EQ1	wm8976.h	30;"	d
+WM8976_EQ2	wm8976.h	31;"	d
+WM8976_EQ3	wm8976.h	32;"	d
+WM8976_EQ4	wm8976.h	33;"	d
+WM8976_EQ5	wm8976.h	34;"	d
+WM8976_GPIO	wm8976.h	22;"	d
+WM8976_HPVOLL	wm8976.h	57;"	d
+WM8976_HPVOLR	wm8976.h	58;"	d
+WM8976_IFACE	wm8976.h	18;"	d
+WM8976_INPPGA	wm8976.h	52;"	d
+WM8976_INPUT	wm8976.h	51;"	d
+WM8976_IN_FORMATS	wm8976.c	966;"	d	file:
+WM8976_JACK1	wm8976.h	23;"	d
+WM8976_JACK2	wm8976.h	27;"	d
+WM8976_MCLK	wm8976.c	/^	WM8976_MCLK,$/;"	e	enum:wm8976_sysclk_src	file:
+WM8976_MCLKDIV	wm8976.h	70;"	d
+WM8976_MCLKSEL	wm8976.h	75;"	d
+WM8976_MCLK_DIV_1	wm8976.h	80;"	d
+WM8976_MCLK_DIV_12	wm8976.h	87;"	d
+WM8976_MCLK_DIV_1_5	wm8976.h	81;"	d
+WM8976_MCLK_DIV_2	wm8976.h	82;"	d
+WM8976_MCLK_DIV_3	wm8976.h	83;"	d
+WM8976_MCLK_DIV_4	wm8976.h	84;"	d
+WM8976_MCLK_DIV_5_5	wm8976.h	85;"	d
+WM8976_MCLK_DIV_6	wm8976.h	86;"	d
+WM8976_MCLK_FREQ	wm8976.h	108;"	d
+WM8976_MCLK_MCLK	wm8976.h	77;"	d
+WM8976_MCLK_PLL	wm8976.h	78;"	d
+WM8976_MIXL	wm8976.h	55;"	d
+WM8976_MIXR	wm8976.h	56;"	d
+WM8976_MONOMIX	wm8976.h	62;"	d
+WM8976_NGATE	wm8976.h	44;"	d
+WM8976_NOTCH1	wm8976.h	37;"	d
+WM8976_NOTCH2	wm8976.h	38;"	d
+WM8976_NOTCH3	wm8976.h	39;"	d
+WM8976_NOTCH4	wm8976.h	40;"	d
+WM8976_OPCLKDIV	wm8976.h	72;"	d
+WM8976_OPCLK_DIV_1	wm8976.h	102;"	d
+WM8976_OPCLK_DIV_2	wm8976.h	103;"	d
+WM8976_OPCLK_DIV_3	wm8976.h	104;"	d
+WM8976_OPCLK_DIV_4	wm8976.h	105;"	d
+WM8976_OPCLK_RATE	wm8976.c	/^	WM8976_OPCLK_RATE,$/;"	e	enum:wm8976_clk_id	file:
+WM8976_OUT3MIX	wm8976.h	61;"	d
+WM8976_OUTPUT	wm8976.h	54;"	d
+WM8976_OUT_FORMATS	wm8976.c	962;"	d	file:
+WM8976_PLL	wm8976.c	/^	WM8976_PLL,$/;"	e	enum:wm8976_sysclk_src	file:
+WM8976_PLLK1	wm8976.h	46;"	d
+WM8976_PLLK2	wm8976.h	47;"	d
+WM8976_PLLK3	wm8976.h	48;"	d
+WM8976_PLLN	wm8976.h	45;"	d
+WM8976_POWER1	wm8976.h	15;"	d
+WM8976_POWER2	wm8976.h	16;"	d
+WM8976_POWER3	wm8976.h	17;"	d
+WM8976_RATES	wm8976.c	957;"	d	file:
+WM8976_RESET	wm8976.h	14;"	d
+WM8976_SPKVOLL	wm8976.h	59;"	d
+WM8976_SPKVOLR	wm8976.h	60;"	d
+_ALSA_DEBUG_H	alsa_debug.h	20;"	d
+_DEBUG_CS3700	cs3700.c	956;"	d	file:
+_I2S_DMA_H	i2s_dma.h	20;"	d
+_RT5621_H	cs3700.h	2;"	d
+_SEP0611_I2S_H	sep0611-i2s.h	20;"	d
+_SEP0611_PCM_H	sep0611-pcm.h	20;"	d
+_WM8976_H	wm8976.h	10;"	d
+_coeff_div	cs3700.c	/^struct _coeff_div {$/;"	s	file:
+_pll_div	cs3700.c	/^struct _pll_div {$/;"	s	file:
+alsa_dbg	alsa_debug.h	28;"	d
+alsa_dbg	alsa_debug.h	30;"	d
+audio_map	cs3700.c	/^static const struct snd_soc_dapm_route audio_map[] = {$/;"	v	typeref:struct:snd_soc_dapm_route	file:
+audio_map	wm8976.c	/^static const struct snd_soc_dapm_route audio_map[] = {$/;"	v	typeref:struct:snd_soc_dapm_route	file:
+base	sep0611-i2s.c	/^	void __iomem *base;$/;"	m	struct:sep0611_i2s_info	file:
+buffer_len	sep0611-pcm.h	/^	size_t buffer_len;$/;"	m	struct:sep0611_runtime_data
+capt_ptr	sep0611-pcm.h	/^    struct snd_pcm_substream *capt_ptr;$/;"	m	struct:__anon1	typeref:struct:__anon1::snd_pcm_substream
+cfg_hi	i2s_dma.h	/^	unsigned long cfg_hi;$/;"	m	struct:dma_info
+cfg_lo	i2s_dma.h	/^	unsigned long cfg_lo;$/;"	m	struct:dma_info
+channel	sep0611-i2s.h	/^    int channel;$/;"	m	struct:sep0611_i2s_dma_params
+clk	sep0611-i2s.c	/^	struct clk *clk;$/;"	m	struct:sep0611_i2s_info	typeref:struct:sep0611_i2s_info::clk	file:
+clk_rate	sep0611-i2s.c	/^	unsigned int clk_rate;$/;"	m	struct:sep0611_i2s_info	file:
+codec	cs3700.c	/^	struct snd_soc_codec codec;$/;"	m	struct:cs3700_priv	typeref:struct:cs3700_priv::snd_soc_codec	file:
+codec_bclk_pll_div	cs3700.c	/^static const struct _pll_div codec_bclk_pll_div[] = {$/;"	v	typeref:struct:_pll_div	file:
+codec_pll_div	cs3700.c	/^static const struct _pll_div codec_pll_div[] = {$/;"	v	typeref:struct:_pll_div	file:
+coeff_div	cs3700.c	/^static const struct _coeff_div coeff_div[] = {$/;"	v	typeref:struct:_coeff_div	file:
+control_type	wm8976.c	/^	enum snd_soc_control_type control_type;$/;"	m	struct:wm8976_priv	typeref:enum:wm8976_priv::snd_soc_control_type	file:
+cs3700_add_controls	cs3700.c	/^static int cs3700_add_controls(struct snd_soc_codec *codec)$/;"	f	file:
+cs3700_add_widgets	cs3700.c	/^static int cs3700_add_widgets(struct snd_soc_codec *codec)$/;"	f	file:
+cs3700_amp_type_sel	cs3700.c	/^static const char *cs3700_amp_type_sel[] = {"Class AB","Class D"};$/;"	v	file:
+cs3700_captureL_mixer_controls	cs3700.c	/^static const struct snd_kcontrol_new cs3700_captureL_mixer_controls[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+cs3700_captureR_mixer_controls	cs3700.c	/^static const struct snd_kcontrol_new cs3700_captureR_mixer_controls[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+cs3700_change_vol	cs3700.c	/^static int cs3700_change_vol(char vol)$/;"	f	file:
+cs3700_dai	cs3700.c	/^EXPORT_SYMBOL_GPL(cs3700_dai);$/;"	v
+cs3700_dai	cs3700.c	/^struct snd_soc_dai cs3700_dai = {$/;"	v	typeref:struct:snd_soc_dai
+cs3700_dai_ops	cs3700.c	/^struct snd_soc_dai_ops cs3700_dai_ops = {$/;"	v	typeref:struct:snd_soc_dai_ops
+cs3700_dapm_widgets	cs3700.c	/^static const struct snd_soc_dapm_widget cs3700_dapm_widgets[] = {$/;"	v	typeref:struct:snd_soc_dapm_widget	file:
+cs3700_enum	cs3700.c	/^static const struct soc_enum cs3700_enum[] = {$/;"	v	typeref:struct:soc_enum	file:
+cs3700_eq_sel	cs3700.c	/^static const char *cs3700_eq_sel[] = {"NORMAL", "CLUB","DANCE", "LIVE","POP",$/;"	v	file:
+cs3700_exit	cs3700.c	/^module_exit(cs3700_exit);$/;"	v
+cs3700_exit	cs3700.c	/^static void __exit cs3700_exit(void)$/;"	f	file:
+cs3700_hp_spk_mux_controls	cs3700.c	/^static const struct snd_kcontrol_new cs3700_hp_spk_mux_controls =$/;"	v	typeref:struct:snd_kcontrol_new	file:
+cs3700_hpl_mixer_controls	cs3700.c	/^static const struct snd_kcontrol_new cs3700_hpl_mixer_controls[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+cs3700_hpl_out_mux_controls	cs3700.c	/^static const struct snd_kcontrol_new cs3700_hpl_out_mux_controls =$/;"	v	typeref:struct:snd_kcontrol_new	file:
+cs3700_hpl_pga	cs3700.c	/^static const char *cs3700_hpl_pga[]  = {"Vmid","HPL mixer"};$/;"	v	file:
+cs3700_hpr_mixer_controls	cs3700.c	/^static const struct snd_kcontrol_new cs3700_hpr_mixer_controls[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+cs3700_hpr_out_mux_controls	cs3700.c	/^static const struct snd_kcontrol_new cs3700_hpr_out_mux_controls =$/;"	v	typeref:struct:snd_kcontrol_new	file:
+cs3700_hpr_pga	cs3700.c	/^static const char *cs3700_hpr_pga[]  = {"Vmid","HPR mixer"};$/;"	v	file:
+cs3700_i2c_driver	cs3700.c	/^static struct i2c_driver cs3700_i2c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+cs3700_i2c_id	cs3700.c	/^static const struct i2c_device_id cs3700_i2c_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+cs3700_i2c_probe	cs3700.c	/^static int cs3700_i2c_probe(struct i2c_client *i2c,$/;"	f	file:
+cs3700_i2c_remove	cs3700.c	/^static int cs3700_i2c_remove(struct i2c_client *client)$/;"	f	file:
+cs3700_i2c_resume	cs3700.c	/^static int cs3700_i2c_resume(struct i2c_client *client)$/;"	f	file:
+cs3700_i2c_resume	cs3700.c	836;"	d	file:
+cs3700_i2c_suspend	cs3700.c	/^static int cs3700_i2c_suspend(struct i2c_client *client, pm_message_t msg)$/;"	f	file:
+cs3700_i2c_suspend	cs3700.c	835;"	d	file:
+cs3700_i2c_write	cs3700.c	/^static int cs3700_i2c_write(struct i2c_client *client, const char *buf, int count)$/;"	f	file:
+cs3700_init	cs3700.c	/^static int cs3700_init(struct snd_soc_device *socdev)$/;"	f	file:
+cs3700_mic_boost_sel	cs3700.c	/^static const char *cs3700_mic_boost_sel[] = {"Bypass","20db","30db","40db"};$/;"	v	file:
+cs3700_modinit	cs3700.c	/^module_init(cs3700_modinit);$/;"	v
+cs3700_modinit	cs3700.c	/^static int __init cs3700_modinit(void)$/;"	f	file:
+cs3700_mono_mixer_controls	cs3700.c	/^static const struct snd_kcontrol_new cs3700_mono_mixer_controls[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+cs3700_mono_mux_controls	cs3700.c	/^static const struct snd_kcontrol_new cs3700_mono_mux_controls =$/;"	v	typeref:struct:snd_kcontrol_new	file:
+cs3700_mono_pga	cs3700.c	/^static const char *cs3700_mono_pga[] = {"Vmid","HP mixer","SPK mixer","Mono Mixer"};$/;"	v	file:
+cs3700_mute	cs3700.c	/^static int cs3700_mute(struct snd_soc_dai *dai, int mute)$/;"	f	file:
+cs3700_pcm_hw_params	cs3700.c	/^static int cs3700_pcm_hw_params(struct snd_pcm_substream *substream,$/;"	f	file:
+cs3700_pcm_prepare	cs3700.c	/^static int cs3700_pcm_prepare(struct snd_pcm_substream *substream,$/;"	f	file:
+cs3700_priv	cs3700.c	/^struct cs3700_priv {$/;"	s	file:
+cs3700_probe	cs3700.c	/^static int cs3700_probe(struct platform_device *pdev)$/;"	f	file:
+cs3700_read_reg	cs3700.c	/^static unsigned int cs3700_read_reg(struct snd_soc_codec *codec, unsigned char reg)$/;"	f	file:
+cs3700_read_reg_cache	cs3700.c	/^static inline unsigned int cs3700_read_reg_cache(struct snd_soc_codec *codec,$/;"	f	file:
+cs3700_reg	cs3700.c	/^static const u16 cs3700_reg[] = {$/;"	v	file:
+cs3700_remove	cs3700.c	/^static int cs3700_remove(struct platform_device *pdev)$/;"	f	file:
+cs3700_resume	cs3700.c	/^static int cs3700_resume(struct platform_device *pdev)$/;"	f	file:
+cs3700_resume	cs3700.c	732;"	d	file:
+cs3700_set_audio_input	cs3700.c	/^static int cs3700_set_audio_input(struct snd_soc_codec *codec)$/;"	f	file:
+cs3700_set_audio_output	cs3700.c	/^static int cs3700_set_audio_output(struct snd_soc_codec *codec)$/;"	f	file:
+cs3700_set_bias_level	cs3700.c	/^static int cs3700_set_bias_level(struct snd_soc_codec *codec, $/;"	f	file:
+cs3700_set_dai_fmt	cs3700.c	/^static int cs3700_set_dai_fmt(struct snd_soc_dai *codec_dai,$/;"	f	file:
+cs3700_set_dai_pll	cs3700.c	/^static int cs3700_set_dai_pll(struct snd_soc_dai *codec_dai,$/;"	f	file:
+cs3700_set_dai_sysclk	cs3700.c	/^static int cs3700_set_dai_sysclk(struct snd_soc_dai *codec_dai,$/;"	f	file:
+cs3700_show_regs	cs3700.c	/^static int cs3700_show_regs(void)$/;"	f	file:
+cs3700_show_regs_cash	cs3700.c	/^static int cs3700_show_regs_cash(void)$/;"	f	file:
+cs3700_shutdown	cs3700.c	/^static void cs3700_shutdown(struct snd_pcm_substream *substream, struct snd_soc_dai *dai)$/;"	f	file:
+cs3700_snd_controls	cs3700.c	/^static const struct snd_kcontrol_new cs3700_snd_controls[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+cs3700_socdev	cs3700.c	/^struct snd_soc_device *cs3700_socdev;	$/;"	v	typeref:struct:snd_soc_device
+cs3700_speaker_mixer_controls	cs3700.c	/^static const struct snd_kcontrol_new cs3700_speaker_mixer_controls[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+cs3700_spk_pga	cs3700.c	/^static const char *cs3700_spk_pga[] = {"Vmid","HP mixer","SPK mixer","Mono Mixer"};$/;"	v	file:
+cs3700_spkn_source_sel	cs3700.c	/^static const char *cs3700_spkn_source_sel[] = {"RN", "RP", "LN"};$/;"	v	file:
+cs3700_suspend	cs3700.c	/^static int cs3700_suspend(struct platform_device *pdev, pm_message_t state)$/;"	f	file:
+cs3700_suspend	cs3700.c	731;"	d	file:
+cs3700_update_bits	cs3700.c	/^int cs3700_update_bits(struct snd_soc_codec *codec, unsigned int reg,$/;"	f
+cs3700_write	cs3700.c	/^static int cs3700_write(struct snd_soc_codec *codec, unsigned int reg,$/;"	f	file:
+cs3700_write_reg	cs3700.c	37;"	d	file:
+cs3700_write_reg_cache	cs3700.c	/^static inline void cs3700_write_reg_cache(struct snd_soc_codec *codec,$/;"	f	file:
+ctrl_hi	i2s_dma.c	/^	unsigned long ctrl_hi;$/;"	m	struct:dma_lli	file:
+ctrl_hi	i2s_dma.h	/^	unsigned long ctrl_hi;$/;"	m	struct:dma_info
+ctrl_lo	i2s_dma.c	/^	unsigned long ctrl_lo;$/;"	m	struct:dma_lli	file:
+ctrl_lo	i2s_dma.h	/^	unsigned long ctrl_lo;$/;"	m	struct:dma_info
+dar	i2s_dma.c	/^	unsigned long dar;$/;"	m	struct:dma_lli	file:
+dev	sep0611-i2s.c	/^	struct device *dev;$/;"	m	struct:sep0611_i2s_info	typeref:struct:sep0611_i2s_info::device	file:
+dev_id	i2s_dma.c	/^static int dev_id = DMA_ALSA_DEV_ID;$/;"	v	file:
+div2	wm8976.c	/^	u8 div2;$/;"	m	struct:wm8976_pll_div	file:
+dma_addr	sep0611-i2s.h	/^    dma_addr_t dma_addr;$/;"	m	struct:sep0611_i2s_dma_params
+dma_buffer	sep0611-pcm.h	/^	dma_addr_t dma_buffer;     	\/* physical address of dma buffer *\/$/;"	m	struct:sep0611_runtime_data
+dma_ch_mask	sep0611-pcm.h	/^	unsigned long dma_ch_mask;	\/* dma channel mask *\/$/;"	m	struct:sep0611_runtime_data
+dma_info	i2s_dma.h	/^struct dma_info{$/;"	s
+dma_info	sep0611-pcm.h	/^	struct dma_info *dma_info;$/;"	m	struct:sep0611_runtime_data	typeref:struct:sep0611_runtime_data::dma_info
+dma_list	i2s_dma.c	/^struct dma_list{$/;"	s	file:
+dma_list_head	i2s_dma.h	/^	struct list_head dma_list_head;$/;"	m	struct:dma_info	typeref:struct:dma_info::list_head
+dma_lli	i2s_dma.c	/^struct dma_lli{$/;"	s	file:
+dma_params	sep0611-pcm.h	/^	struct sep0611_i2s_dma_params *dma_params;$/;"	m	struct:sep0611_runtime_data	typeref:struct:sep0611_runtime_data::sep0611_i2s_dma_params
+dma_trans_type	i2s_dma.h	/^enum dma_trans_type{$/;"	g
+dst_addr	i2s_dma.h	/^	unsigned long dst_addr;$/;"	m	struct:dma_info
+dstat	i2s_dma.c	/^	unsigned long dstat;	$/;"	m	struct:dma_lli	file:
+f_256fs	wm8976.c	/^	unsigned int f_256fs;$/;"	m	struct:wm8976_priv	file:
+f_mclk	wm8976.c	/^	unsigned int f_mclk;$/;"	m	struct:wm8976_priv	file:
+f_opclk	wm8976.c	/^	unsigned int f_opclk;$/;"	m	struct:wm8976_priv	file:
+f_pllout	wm8976.c	/^	unsigned int f_pllout;$/;"	m	struct:wm8976_priv	file:
+fast_mode	sep0611-i2s.c	/^	unsigned int fast_mode;$/;"	m	struct:sep0611_i2s_info	file:
+first_llp	i2s_dma.h	/^	unsigned long first_llp;$/;"	m	struct:dma_info
+fs	cs3700.c	/^	u16 fs;$/;"	m	struct:_coeff_div	file:
+get_coeff	cs3700.c	/^static int get_coeff(int mclk, int rate)$/;"	f	file:
+hp_task_func	sep0611_wm8976.c	/^static void hp_task_func(unsigned long data)$/;"	f	file:
+hp_timer	sep0611_wm8976.c	/^struct timer_list *hp_timer;$/;"	v	typeref:struct:timer_list
+i2s_dma_free	i2s_dma.c	/^void i2s_dma_free(struct snd_pcm_substream *substream)$/;"	f
+i2s_dma_init	i2s_dma.c	/^void i2s_dma_init(void)$/;"	f
+i2s_dma_pointer	i2s_dma.c	/^unsigned long i2s_dma_pointer(struct snd_pcm_substream *substream)$/;"	f
+i2s_dma_prepare	i2s_dma.c	/^int i2s_dma_prepare(struct snd_pcm_substream *substream)$/;"	f
+i2s_dma_start	i2s_dma.c	/^void i2s_dma_start(struct snd_pcm_substream *substream)$/;"	f
+i2s_dma_stop	i2s_dma.c	/^void i2s_dma_stop(struct snd_pcm_substream *substream)$/;"	f
+i2s_info	sep0611-i2s.c	/^static struct sep0611_i2s_info i2s_info;$/;"	v	typeref:struct:sep0611_i2s_info	file:
+i2s_regs	sep0611-i2s.c	/^volatile unsigned long *i2s_regs;$/;"	v
+i2s_rx_tasklet	i2s_dma.c	/^static struct tasklet_struct i2s_rx_tasklet;$/;"	v	typeref:struct:tasklet_struct	file:
+i2s_tx_tasklet	i2s_dma.c	/^static struct tasklet_struct i2s_tx_tasklet;$/;"	v	typeref:struct:tasklet_struct	file:
+init_i2s_gpio	sep0611-i2s.c	/^void init_i2s_gpio(void)$/;"	f
+k	wm8976.c	/^	u32 k;$/;"	m	struct:wm8976_pll_div	file:
+list	i2s_dma.c	/^	struct list_head list;$/;"	m	struct:dma_list	typeref:struct:dma_list::list_head	file:
+lli	i2s_dma.c	/^	struct dma_lli lli;$/;"	m	struct:dma_list	typeref:struct:dma_list::dma_lli	file:
+llp	i2s_dma.c	/^	unsigned long llp;$/;"	m	struct:dma_lli	file:
+load_first_llp	i2s_dma.c	/^static int load_first_llp(struct dma_info *p_dma_info, unsigned long ch)$/;"	f	file:
+lock	sep0611-pcm.h	/^	spinlock_t lock;$/;"	m	struct:sep0611_runtime_data
+mclk	cs3700.c	/^	u32 mclk;$/;"	m	struct:_coeff_div	file:
+mclk_denominator	wm8976.c	/^static const int mclk_denominator[]	= {1, 2, 1, 1, 1, 1, 1, 1};$/;"	v	file:
+mclk_idx	wm8976.c	/^	int mclk_idx;$/;"	m	struct:wm8976_priv	file:
+mclk_numerator	wm8976.c	/^static const int mclk_numerator[]	= {1, 3, 2, 3, 4, 6, 8, 12};$/;"	v	file:
+n	wm8976.c	/^	u8 n;$/;"	m	struct:wm8976_pll_div	file:
+name	sep0611-i2s.h	/^    char *name; \/* stream identifier *\/$/;"	m	struct:sep0611_i2s_dma_params
+pcm_dma_handler	i2s_dma.c	/^static irqreturn_t pcm_dma_handler(int irq, void *dev_id)$/;"	f	file:
+period_len	sep0611-pcm.h	/^	size_t period_len;$/;"	m	struct:sep0611_runtime_data
+play_ptr	sep0611-pcm.h	/^    struct snd_pcm_substream *play_ptr;$/;"	m	struct:__anon1	typeref:struct:__anon1::snd_pcm_substream
+pll_factors	wm8976.c	/^static void pll_factors(struct snd_soc_codec *codec,$/;"	f	file:
+pll_in	cs3700.c	/^	u32 pll_in;$/;"	m	struct:_pll_div	file:
+pll_out	cs3700.c	/^	u32 pll_out;$/;"	m	struct:_pll_div	file:
+rate	cs3700.c	/^	u32 rate;$/;"	m	struct:_coeff_div	file:
+reg_cache	cs3700.c	/^	u16 reg_cache[CS3700_NUM_REG];$/;"	m	struct:cs3700_priv	file:
+reg_cache	wm8976.c	/^	u16 reg_cache[WM8976_CACHEREGNUM];$/;"	m	struct:wm8976_priv	file:
+regvalue	cs3700.c	/^	u16 regvalue;$/;"	m	struct:_coeff_div	file:
+regvalue	cs3700.c	/^	u16 regvalue;$/;"	m	struct:_pll_div	file:
+rx_tasklet_fun	i2s_dma.c	/^static void rx_tasklet_fun(unsigned long data)$/;"	f	file:
+sample_bits	sep0611-i2s.c	/^	unsigned int sample_bits;$/;"	m	struct:sep0611_i2s_info	file:
+sample_rate	sep0611-i2s.c	/^	unsigned int sample_rate;$/;"	m	struct:sep0611_i2s_info	file:
+sar	i2s_dma.c	/^	unsigned long sar;$/;"	m	struct:dma_lli	file:
+sclk_gate	sep0611-i2s.c	/^	unsigned int sclk_gate;$/;"	m	struct:sep0611_i2s_info	file:
+sep0611_board_hw_params	sep0611_cs3700.c	/^static int sep0611_board_hw_params(struct snd_pcm_substream *substream, struct snd_pcm_hw_params *params)$/;"	f	file:
+sep0611_board_hw_params	sep0611_wm8976.c	/^static int sep0611_board_hw_params(struct snd_pcm_substream *substream, struct snd_pcm_hw_params *params)$/;"	f	file:
+sep0611_board_probe	sep0611_cs3700.c	/^static int sep0611_board_probe(struct platform_device *pdev)$/;"	f	file:
+sep0611_board_probe	sep0611_wm8976.c	/^static int sep0611_board_probe(struct platform_device *pdev)$/;"	f	file:
+sep0611_board_remove	sep0611_cs3700.c	/^static int sep0611_board_remove(struct platform_device *pdev)$/;"	f	file:
+sep0611_board_remove	sep0611_wm8976.c	/^static int sep0611_board_remove(struct platform_device *pdev)$/;"	f	file:
+sep0611_board_resume_pre	sep0611_cs3700.c	/^static int sep0611_board_resume_pre(struct platform_device *pdev)$/;"	f	file:
+sep0611_board_resume_pre	sep0611_cs3700.c	201;"	d	file:
+sep0611_board_resume_pre	sep0611_wm8976.c	/^static int sep0611_board_resume_pre(struct platform_device *pdev)$/;"	f	file:
+sep0611_board_resume_pre	sep0611_wm8976.c	312;"	d	file:
+sep0611_board_shutdown	sep0611_cs3700.c	/^static void sep0611_board_shutdown(struct snd_pcm_substream *substream)$/;"	f	file:
+sep0611_board_shutdown	sep0611_wm8976.c	/^static void sep0611_board_shutdown(struct snd_pcm_substream *substream)$/;"	f	file:
+sep0611_board_startup	sep0611_cs3700.c	/^static int sep0611_board_startup(struct snd_pcm_substream *substream)$/;"	f	file:
+sep0611_board_startup	sep0611_wm8976.c	/^static int sep0611_board_startup(struct snd_pcm_substream *substream)$/;"	f	file:
+sep0611_board_suspend_post	sep0611_cs3700.c	/^static int sep0611_board_suspend_post(struct platform_device *pdev, pm_message_t state)$/;"	f	file:
+sep0611_board_suspend_post	sep0611_cs3700.c	200;"	d	file:
+sep0611_board_suspend_post	sep0611_wm8976.c	/^static int sep0611_board_suspend_post(struct platform_device *pdev, pm_message_t state)$/;"	f	file:
+sep0611_board_suspend_post	sep0611_wm8976.c	311;"	d	file:
+sep0611_codec_enable	sep0611_cs3700.c	/^static __inline void sep0611_codec_enable(bool enable)$/;"	f	file:
+sep0611_codec_enable	sep0611_wm8976.c	/^static __inline void sep0611_codec_enable(bool enable)$/;"	f	file:
+sep0611_codec_gpio_init	sep0611_cs3700.c	/^static __inline void sep0611_codec_gpio_init(void)$/;"	f	file:
+sep0611_codec_gpio_init	sep0611_wm8976.c	/^static __inline void sep0611_codec_gpio_init(void)$/;"	f	file:
+sep0611_cs3700_init	cs3700.c	/^static void sep0611_cs3700_init(struct snd_soc_codec *codec)$/;"	f	file:
+sep0611_cs3700_init	sep0611_cs3700.c	/^static int sep0611_cs3700_init(struct snd_soc_codec *codec)$/;"	f	file:
+sep0611_dai	sep0611_cs3700.c	/^static struct snd_soc_dai_link sep0611_dai[] = {$/;"	v	typeref:struct:snd_soc_dai_link	file:
+sep0611_dai	sep0611_wm8976.c	/^static struct snd_soc_dai_link sep0611_dai[] = {$/;"	v	typeref:struct:snd_soc_dai_link	file:
+sep0611_hp_insert	sep0611_wm8976.c	/^static irqreturn_t sep0611_hp_insert(int irq, void *dev_id)$/;"	f	file:
+sep0611_i2s_calc_clk	sep0611-i2s.c	/^static unsigned int sep0611_i2s_calc_clk(unsigned int rate, unsigned int bits)$/;"	f	file:
+sep0611_i2s_dai	sep0611-i2s.c	/^EXPORT_SYMBOL_GPL(sep0611_i2s_dai);$/;"	v
+sep0611_i2s_dai	sep0611-i2s.c	/^struct snd_soc_dai sep0611_i2s_dai[] = {$/;"	v	typeref:struct:snd_soc_dai
+sep0611_i2s_dai_ops	sep0611-i2s.c	/^struct snd_soc_dai_ops sep0611_i2s_dai_ops = {$/;"	v	typeref:struct:snd_soc_dai_ops
+sep0611_i2s_dma_params	sep0611-i2s.h	/^struct sep0611_i2s_dma_params {$/;"	s
+sep0611_i2s_exit	sep0611-i2s.c	/^module_exit(sep0611_i2s_exit);$/;"	v
+sep0611_i2s_exit	sep0611-i2s.c	/^static void __exit sep0611_i2s_exit(void)$/;"	f	file:
+sep0611_i2s_hw_params	sep0611-i2s.c	/^static int sep0611_i2s_hw_params(struct snd_pcm_substream *substream,$/;"	f	file:
+sep0611_i2s_info	sep0611-i2s.c	/^struct sep0611_i2s_info {$/;"	s	file:
+sep0611_i2s_init	sep0611-i2s.c	/^module_init(sep0611_i2s_init);$/;"	v
+sep0611_i2s_init	sep0611-i2s.c	/^static int __init sep0611_i2s_init(void)$/;"	f	file:
+sep0611_i2s_probe	sep0611-i2s.c	/^static int sep0611_i2s_probe(struct platform_device *pdev, struct snd_soc_dai *dai)$/;"	f	file:
+sep0611_i2s_resume	sep0611-i2s.c	/^static int sep0611_i2s_resume(struct snd_soc_dai *dai)$/;"	f	file:
+sep0611_i2s_resume	sep0611-i2s.c	446;"	d	file:
+sep0611_i2s_set_dai_fmt	sep0611-i2s.c	/^static int sep0611_i2s_set_dai_fmt(struct snd_soc_dai *cpu_dai, unsigned int format)$/;"	f	file:
+sep0611_i2s_set_dai_sysclk	sep0611-i2s.c	/^static int sep0611_i2s_set_dai_sysclk(struct snd_soc_dai *cpu_dai,$/;"	f	file:
+sep0611_i2s_shutdown	sep0611-i2s.c	/^static void sep0611_i2s_shutdown(struct snd_pcm_substream *substream, struct snd_soc_dai *dai)$/;"	f	file:
+sep0611_i2s_startup	sep0611-i2s.c	/^static int sep0611_i2s_startup(struct snd_pcm_substream *substream, struct snd_soc_dai *dai)$/;"	f	file:
+sep0611_i2s_stereo_in	sep0611-i2s.c	/^static struct sep0611_i2s_dma_params sep0611_i2s_stereo_in = {$/;"	v	typeref:struct:sep0611_i2s_dma_params	file:
+sep0611_i2s_stereo_out	sep0611-i2s.c	/^static struct sep0611_i2s_dma_params sep0611_i2s_stereo_out = {$/;"	v	typeref:struct:sep0611_i2s_dma_params	file:
+sep0611_i2s_suspend	sep0611-i2s.c	/^static int sep0611_i2s_suspend(struct snd_soc_dai *dai)$/;"	f	file:
+sep0611_i2s_suspend	sep0611-i2s.c	445;"	d	file:
+sep0611_i2s_trigger	sep0611-i2s.c	/^static int sep0611_i2s_trigger(struct snd_pcm_substream *substream, $/;"	f	file:
+sep0611_init_hp	sep0611_wm8976.c	/^static void sep0611_init_hp(void)$/;"	f	file:
+sep0611_ops	sep0611_cs3700.c	/^static struct snd_soc_ops sep0611_ops = {$/;"	v	typeref:struct:snd_soc_ops	file:
+sep0611_ops	sep0611_wm8976.c	/^static struct snd_soc_ops sep0611_ops = {$/;"	v	typeref:struct:snd_soc_ops	file:
+sep0611_pcm_close	sep0611-pcm.c	/^static int sep0611_pcm_close(struct snd_pcm_substream *substream)$/;"	f	file:
+sep0611_pcm_dmamask	sep0611-pcm.c	/^static u64 sep0611_pcm_dmamask = DMA_32BIT_MASK;$/;"	v	file:
+sep0611_pcm_free_dma_buffers	sep0611-pcm.c	/^static void sep0611_pcm_free_dma_buffers(struct snd_pcm *pcm)$/;"	f	file:
+sep0611_pcm_hw_free	sep0611-pcm.c	/^static int sep0611_pcm_hw_free(struct snd_pcm_substream *substream)$/;"	f	file:
+sep0611_pcm_hw_params	sep0611-pcm.c	/^static int sep0611_pcm_hw_params(struct snd_pcm_substream *substream, struct snd_pcm_hw_params *params)$/;"	f	file:
+sep0611_pcm_mmap	sep0611-pcm.c	/^static int sep0611_pcm_mmap(struct snd_pcm_substream *substream, struct vm_area_struct *vma)$/;"	f	file:
+sep0611_pcm_new	sep0611-pcm.c	/^int sep0611_pcm_new(struct snd_card *card, struct snd_soc_dai *dai, struct snd_pcm *pcm)$/;"	f
+sep0611_pcm_open	sep0611-pcm.c	/^static int sep0611_pcm_open(struct snd_pcm_substream *substream)$/;"	f	file:
+sep0611_pcm_ops	sep0611-pcm.c	/^struct snd_pcm_ops sep0611_pcm_ops = {$/;"	v	typeref:struct:snd_pcm_ops
+sep0611_pcm_period_done	sep0611-pcm.c	/^void sep0611_pcm_period_done(void *arg)$/;"	f
+sep0611_pcm_pointer	sep0611-pcm.c	/^static snd_pcm_uframes_t sep0611_pcm_pointer(struct snd_pcm_substream *substream)$/;"	f	file:
+sep0611_pcm_preallocate_dma_buffer	sep0611-pcm.c	/^static int sep0611_pcm_preallocate_dma_buffer(struct snd_pcm *pcm, int stream)$/;"	f	file:
+sep0611_pcm_prepare	sep0611-pcm.c	/^static int sep0611_pcm_prepare(struct snd_pcm_substream *substream)$/;"	f	file:
+sep0611_pcm_resume	sep0611-pcm.c	/^int sep0611_pcm_resume(struct snd_soc_dai *cpu_dai)$/;"	f
+sep0611_pcm_suspend	sep0611-pcm.c	/^int sep0611_pcm_suspend(struct snd_soc_dai *cpu_dai)$/;"	f
+sep0611_pcm_trigger	sep0611-pcm.c	/^static int sep0611_pcm_trigger(struct snd_pcm_substream *substream, int cmd)$/;"	f	file:
+sep0611_pcms	sep0611-pcm.c	/^sep0611_pcms_t sep0611_pcms;	\/* record the opened pcm's pointer *\/$/;"	v
+sep0611_pcms_t	sep0611-pcm.h	/^}sep0611_pcms_t;$/;"	t	typeref:struct:__anon1
+sep0611_runtime_data	sep0611-pcm.h	/^struct sep0611_runtime_data {$/;"	s
+sep0611_snd_devdata	sep0611_cs3700.c	/^static struct snd_soc_device sep0611_snd_devdata = {$/;"	v	typeref:struct:snd_soc_device	file:
+sep0611_snd_devdata	sep0611_wm8976.c	/^static struct snd_soc_device sep0611_snd_devdata = {$/;"	v	typeref:struct:snd_soc_device	file:
+sep0611_snd_device	sep0611_cs3700.c	/^static struct platform_device *sep0611_snd_device;$/;"	v	typeref:struct:platform_device	file:
+sep0611_snd_device	sep0611_wm8976.c	/^static struct platform_device *sep0611_snd_device;$/;"	v	typeref:struct:platform_device	file:
+sep0611_snd_exit	sep0611_cs3700.c	/^module_exit(sep0611_snd_exit);$/;"	v
+sep0611_snd_exit	sep0611_cs3700.c	/^static void __exit sep0611_snd_exit(void)$/;"	f	file:
+sep0611_snd_exit	sep0611_wm8976.c	/^module_exit(sep0611_snd_exit);$/;"	v
+sep0611_snd_exit	sep0611_wm8976.c	/^static void __exit sep0611_snd_exit(void)$/;"	f	file:
+sep0611_snd_init	sep0611_cs3700.c	/^module_init(sep0611_snd_init);$/;"	v
+sep0611_snd_init	sep0611_cs3700.c	/^static int __init sep0611_snd_init(void)$/;"	f	file:
+sep0611_snd_init	sep0611_wm8976.c	/^module_init(sep0611_snd_init);$/;"	v
+sep0611_snd_init	sep0611_wm8976.c	/^static int __init sep0611_snd_init(void)$/;"	f	file:
+sep0611_soc_platform	sep0611-pcm.c	/^EXPORT_SYMBOL_GPL(sep0611_soc_platform);$/;"	v
+sep0611_soc_platform	sep0611-pcm.c	/^struct snd_soc_platform sep0611_soc_platform = {$/;"	v	typeref:struct:snd_soc_platform
+sep0611_soc_platform_exit	sep0611-pcm.c	/^module_exit(sep0611_soc_platform_exit);$/;"	v
+sep0611_soc_platform_exit	sep0611-pcm.c	/^static void __exit sep0611_soc_platform_exit(void)$/;"	f	file:
+sep0611_soc_platform_init	sep0611-pcm.c	/^module_init(sep0611_soc_platform_init);$/;"	v
+sep0611_soc_platform_init	sep0611-pcm.c	/^static int __init sep0611_soc_platform_init(void)$/;"	f	file:
+sep0611_spk_gpio_init	sep0611_cs3700.c	/^static __inline void sep0611_spk_gpio_init(void)$/;"	f	file:
+sep0611_spk_gpio_init	sep0611_wm8976.c	/^static __inline void sep0611_spk_gpio_init(void)$/;"	f	file:
+sep0611_spk_out	sep0611-i2s.c	304;"	d	file:
+sep0611_spk_out	sep0611_cs3700.c	/^void sep0611_spk_out(bool enable)$/;"	f
+sep0611_spk_out	sep0611_wm8976.c	/^void sep0611_spk_out(bool enable)$/;"	f
+sep0611_wm8976_init	sep0611_wm8976.c	/^static int sep0611_wm8976_init(struct snd_soc_codec *codec)$/;"	f	file:
+sep0611_wm8976_init	wm8976.c	/^static void sep0611_wm8976_init(struct snd_soc_codec *codec)$/;"	f	file:
+sep_i2s_cpufreq_deregister	sep0611-i2s.c	/^static inline void sep_i2s_cpufreq_deregister(void)$/;"	f	file:
+sep_i2s_cpufreq_register	sep0611-i2s.c	/^static inline int sep_i2s_cpufreq_register(void)$/;"	f	file:
+sep_i2s_cpufreq_transition	sep0611-i2s.c	/^static int sep_i2s_cpufreq_transition(struct notifier_block *nb,$/;"	f	file:
+sep_i2s_freq_transition	sep0611-i2s.c	/^struct notifier_block   sep_i2s_freq_transition;$/;"	v	typeref:struct:notifier_block
+sep_ts_test_exit	cs3700.c	/^module_exit(sep_ts_test_exit);$/;"	v
+sep_ts_test_exit	cs3700.c	/^static void __exit sep_ts_test_exit(void)$/;"	f	file:
+sep_ts_test_init	cs3700.c	/^late_initcall(sep_ts_test_init);$/;"	v
+sep_ts_test_init	cs3700.c	/^static int __init sep_ts_test_init(void)$/;"	f	file:
+set_dma_cll	i2s_dma.c	/^static int set_dma_cll(struct dma_info *p_dma_info, unsigned long buf_len,$/;"	f	file:
+snd-soc-sep0611-objs	Makefile	/^snd-soc-sep0611-objs := sep0611-pcm.o sep0611-i2s.o i2s_dma.o$/;"	m
+snd_pcm_capture	sep0611-pcm.c	/^static struct snd_pcm_hardware snd_pcm_capture =$/;"	v	typeref:struct:snd_pcm_hardware	file:
+snd_pcm_playback	sep0611-pcm.c	/^static struct snd_pcm_hardware snd_pcm_playback =$/;"	v	typeref:struct:snd_pcm_hardware	file:
+snd_soc_dai	cs3700.c	/^struct snd_soc_dai *snd_soc_dai = &cs3700_dai;$/;"	v	typeref:struct:snd_soc_dai
+snd_soc_machine_sep0611	sep0611_cs3700.c	/^static struct snd_soc_card snd_soc_machine_sep0611 = {$/;"	v	typeref:struct:snd_soc_card	file:
+snd_soc_machine_sep0611	sep0611_wm8976.c	/^static struct snd_soc_card snd_soc_machine_sep0611 = {$/;"	v	typeref:struct:snd_soc_card	file:
+soc_codec_dev_cs3700	cs3700.c	/^EXPORT_SYMBOL_GPL(soc_codec_dev_cs3700);$/;"	v
+soc_codec_dev_cs3700	cs3700.c	/^struct snd_soc_codec_device soc_codec_dev_cs3700 = {$/;"	v	typeref:struct:snd_soc_codec_device
+soc_codec_dev_wm8976	wm8976.c	/^EXPORT_SYMBOL_GPL(soc_codec_dev_wm8976);$/;"	v
+soc_codec_dev_wm8976	wm8976.c	/^struct snd_soc_codec_device soc_codec_dev_wm8976 = {$/;"	v	typeref:struct:snd_soc_codec_device
+soc_codec_dev_wm8976	wm8976.c	/^struct snd_soc_codec_device soc_codec_dev_wm8976;$/;"	v	typeref:struct:snd_soc_codec_device
+src_addr	i2s_dma.h	/^	unsigned long src_addr;$/;"	m	struct:dma_info
+sysclk	cs3700.c	/^	unsigned int sysclk;$/;"	m	struct:cs3700_priv	file:
+sysclk	wm8976.c	/^	enum wm8976_sysclk_src sysclk;$/;"	m	struct:wm8976_priv	typeref:enum:wm8976_priv::wm8976_sysclk_src	file:
+test_fops	cs3700.c	/^static struct file_operations test_fops = {$/;"	v	typeref:struct:file_operations	file:
+test_misc_dev	cs3700.c	/^struct miscdevice test_misc_dev;$/;"	v	typeref:struct:miscdevice
+test_open	cs3700.c	/^int test_open(struct inode *inode, struct file *filp)$/;"	f
+test_release	cs3700.c	/^int test_release(struct inode *inode, struct file *filp)$/;"	f
+test_write	cs3700.c	/^ssize_t test_write(struct file *filp, const char __user *buff, size_t count, loff_t *offp)$/;"	f
+trans_type	i2s_dma.h	/^	enum dma_trans_type trans_type;$/;"	m	struct:dma_info	typeref:enum:dma_info::dma_trans_type
+tx_tasklet_fun	i2s_dma.c	/^static void tx_tasklet_fun(unsigned long data)$/;"	f	file:
+wm8976_add_controls	wm8976.c	/^static int wm8976_add_controls(struct snd_soc_codec *codec)$/;"	f	file:
+wm8976_add_widgets	wm8976.c	/^static int wm8976_add_widgets(struct snd_soc_codec *codec)$/;"	f	file:
+wm8976_alc	wm8976.c	/^static const char *wm8976_alc[] = {"ALC both on", "ALC left only", "ALC right only", "Limiter" };$/;"	v	file:
+wm8976_bw	wm8976.c	/^static const char *wm8976_bw[] = {"Narrow", "Wide" };$/;"	v	file:
+wm8976_clk_id	wm8976.c	/^enum wm8976_clk_id{$/;"	g	file:
+wm8976_companding	wm8976.c	/^static const char *wm8976_companding[] = {"Off", "NC", "u-law", "A-law" };$/;"	v	file:
+wm8976_configure_pll	wm8976.c	/^static int wm8976_configure_pll(struct snd_soc_codec *codec)$/;"	f	file:
+wm8976_dai	wm8976.c	/^EXPORT_SYMBOL_GPL(wm8976_dai);$/;"	v
+wm8976_dai	wm8976.c	/^struct snd_soc_dai wm8976_dai = {$/;"	v	typeref:struct:snd_soc_dai
+wm8976_dai_ops	wm8976.c	/^struct snd_soc_dai_ops wm8976_dai_ops = {$/;"	v	typeref:struct:snd_soc_dai_ops
+wm8976_dapm_widgets	wm8976.c	/^static const struct snd_soc_dapm_widget wm8976_dapm_widgets[] = {$/;"	v	typeref:struct:snd_soc_dapm_widget	file:
+wm8976_enum	wm8976.c	/^static const struct soc_enum wm8976_enum[] = {$/;"	v	typeref:struct:soc_enum	file:
+wm8976_enum_mclk	wm8976.c	/^static int wm8976_enum_mclk(unsigned int f_out, unsigned int f_mclk,$/;"	f	file:
+wm8976_eq1	wm8976.c	/^static const char *wm8976_eq1[] = {"80Hz", "105Hz", "135Hz", "175Hz" };$/;"	v	file:
+wm8976_eq2	wm8976.c	/^static const char *wm8976_eq2[] = {"230Hz", "300Hz", "385Hz", "500Hz" };$/;"	v	file:
+wm8976_eq3	wm8976.c	/^static const char *wm8976_eq3[] = {"650Hz", "850Hz", "1.1kHz", "1.4kHz" };$/;"	v	file:
+wm8976_eq4	wm8976.c	/^static const char *wm8976_eq4[] = {"1.8kHz", "2.4kHz", "3.2kHz", "4.1kHz" };$/;"	v	file:
+wm8976_eq5	wm8976.c	/^static const char *wm8976_eq5[] = {"5.3kHz", "6.9kHz", "9kHz", "11.7kHz" };$/;"	v	file:
+wm8976_eqmode	wm8976.c	/^static const char *wm8976_eqmode[] = {"Capture", "Playback" };$/;"	v	file:
+wm8976_exit	wm8976.c	/^module_exit(wm8976_exit);$/;"	v
+wm8976_exit	wm8976.c	/^static void __exit wm8976_exit(void)$/;"	f	file:
+wm8976_hw_params	wm8976.c	/^static int wm8976_hw_params(struct snd_pcm_substream *substream,$/;"	f	file:
+wm8976_i2c_driver	wm8976.c	/^static struct i2c_driver wm8976_i2c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+wm8976_i2c_driver	wm8976.c	/^static struct i2c_driver wm8976_i2c_driver;$/;"	v	typeref:struct:i2c_driver	file:
+wm8976_i2c_id	wm8976.c	/^static const struct i2c_device_id wm8976_i2c_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+wm8976_i2c_probe	wm8976.c	/^static int wm8976_i2c_probe(struct i2c_client *i2c,$/;"	f	file:
+wm8976_i2c_remove	wm8976.c	/^static int wm8976_i2c_remove(struct i2c_client *client)$/;"	f	file:
+wm8976_i2c_write	wm8976.c	/^static int wm8976_i2c_write(struct i2c_client *client, const char *buf, int count)$/;"	f	file:
+wm8976_init	wm8976.c	/^static int wm8976_init(struct snd_soc_device *socdev)$/;"	f	file:
+wm8976_left_input_mixer	wm8976.c	/^static const struct snd_kcontrol_new wm8976_left_input_mixer[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+wm8976_left_mixer_controls	wm8976.c	/^static const struct snd_kcontrol_new wm8976_left_mixer_controls[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+wm8976_modinit	wm8976.c	/^module_init(wm8976_modinit);$/;"	v
+wm8976_modinit	wm8976.c	/^static int __init wm8976_modinit(void)$/;"	f	file:
+wm8976_mute	wm8976.c	/^static int wm8976_mute(struct snd_soc_dai *dai, int mute)$/;"	f	file:
+wm8976_pcm_prepare	wm8976.c	/^static int wm8976_pcm_prepare(struct snd_pcm_substream *substream,$/;"	f	file:
+wm8976_pll_div	wm8976.c	/^struct wm8976_pll_div {$/;"	s	file:
+wm8976_priv	wm8976.c	/^struct wm8976_priv {$/;"	s	file:
+wm8976_probe	wm8976.c	/^static int wm8976_probe(struct platform_device *pdev)$/;"	f	file:
+wm8976_read_reg_cache	wm8976.c	/^static inline unsigned int wm8976_read_reg_cache(struct snd_soc_codec  *codec,$/;"	f	file:
+wm8976_reg	wm8976.c	/^static const u16 wm8976_reg[WM8976_CACHEREGNUM] = {$/;"	v	file:
+wm8976_remove	wm8976.c	/^static int wm8976_remove(struct platform_device *pdev)$/;"	f	file:
+wm8976_reset	wm8976.c	136;"	d	file:
+wm8976_resume	wm8976.c	/^static int wm8976_resume(struct platform_device *pdev)$/;"	f	file:
+wm8976_right_mixer_controls	wm8976.c	/^static const struct snd_kcontrol_new wm8976_right_mixer_controls[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+wm8976_set_audio_input	wm8976.c	/^static int wm8976_set_audio_input(struct snd_soc_codec *codec)$/;"	f	file:
+wm8976_set_audio_output	wm8976.c	/^static int wm8976_set_audio_output(struct snd_soc_codec *codec)$/;"	f	file:
+wm8976_set_bias_level	wm8976.c	/^static int wm8976_set_bias_level(struct snd_soc_codec *codec,$/;"	f	file:
+wm8976_set_dai_clkdiv	wm8976.c	/^static int wm8976_set_dai_clkdiv(struct snd_soc_dai *codec_dai,$/;"	f	file:
+wm8976_set_dai_fmt	wm8976.c	/^static int wm8976_set_dai_fmt(struct snd_soc_dai *codec_dai, unsigned int fmt)$/;"	f	file:
+wm8976_set_dai_sysclk	wm8976.c	/^static int wm8976_set_dai_sysclk(struct snd_soc_dai *codec_dai, int clk_id,$/;"	f	file:
+wm8976_shutdown	wm8976.c	/^static void wm8976_shutdown(struct snd_pcm_substream *substream,$/;"	f	file:
+wm8976_snd_controls	wm8976.c	/^static const struct snd_kcontrol_new wm8976_snd_controls[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+wm8976_socdev	wm8976.c	/^static struct snd_soc_device *wm8976_socdev;$/;"	v	typeref:struct:snd_soc_device	file:
+wm8976_suspend	wm8976.c	/^static int wm8976_suspend(struct platform_device *pdev, pm_message_t state)$/;"	f	file:
+wm8976_sysclk_src	wm8976.c	/^enum wm8976_sysclk_src {$/;"	g	file:
+wm8976_write	wm8976.c	/^static int wm8976_write(struct snd_soc_codec *codec, unsigned int reg,$/;"	f	file:
+wm8976_write_reg_cache	wm8976.c	/^static inline void wm8976_write_reg_cache(struct snd_soc_codec  *codec,$/;"	f	file:
+wss	sep0611-i2s.c	/^	unsigned int wss;$/;"	m	struct:sep0611_i2s_info	file:

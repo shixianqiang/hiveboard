@@ -1,0 +1,43 @@
+/*
+ * linux/arch/unicore/lib/strnlen_user.S 
+ *
+ * Code specific to PKUnity SoC and UniCore ISA
+ * Fragments that appear the same as the files in arm or x86
+ *
+ * Copyright (C) 2001-2008 GUAN Xue-tao
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+#include <linux/linkage.h>
+#include <asm/assembler.h>
+#include <asm/errno.h>
+
+	.text
+	.align	5
+
+/* Prototype: unsigned long __strnlen_user(const char *str, long n)
+ * Purpose  : get length of a string in user memory
+ * Params   : str - address of string in user memory
+ * Returns  : length of string *including terminator*
+ *	      or zero on exception, or n + 1 if too long
+ */
+ENTRY(__strnlen_user)
+	mov	r2, r0
+1:
+	ldrusr	r3, r0, 1
+	cmpxor.a	r3, #0
+	beq	2f
+	sub.a	r1, r1, #1
+	bne	1b
+	add	r0, r0, #1
+2:	sub	r0, r0, r2
+	mov	pc, lr
+ENDPROC(__strnlen_user)
+
+	.section .fixup,"ax"
+	.align	0
+9001:	mov	r0, #0
+	mov	pc, lr
+	.previous

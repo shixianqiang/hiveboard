@@ -1,0 +1,33 @@
+/*
+ * linux/arch/unicore/include/asm/hwcap.h
+ *
+ * Code specific to PKUnity SoC and UniCore ISA
+ * Fragments that appear the same as the files in arm or x86
+ *
+ * Copyright (C) 2001-2008 GUAN Xue-tao
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+#ifndef __UNICORE_HWCAP_H__
+#define __UNICORE_HWCAP_H__
+
+/*
+ * HWCAP flags - for elf_hwcap (in kernel) and AT_HWCAP
+ */
+#define HWCAP_MSP		1
+#define HWCAP_UNICORE16		2
+#define HWCAP_CMOV		4
+#define HWCAP_UNICORE_F64       8
+
+#if defined(__KERNEL__) && !defined(__ASSEMBLY__)
+/*
+ * This yields a mask that user programs can use to figure out what
+ * instruction set this cpu supports.
+ */
+#define ELF_HWCAP	(elf_hwcap)
+extern unsigned int elf_hwcap;
+#endif
+
+#endif

@@ -1,0 +1,4 @@
+config VPU_SEP0611
+        bool "SEP0611 On2 VPU"
+
+
