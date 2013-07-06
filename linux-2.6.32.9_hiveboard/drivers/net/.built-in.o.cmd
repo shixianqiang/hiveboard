@@ -1,1 +1,0 @@
-cmd_drivers/net/built-in.o :=  unicore32-linux-ld -EL    -r -o drivers/net/built-in.o drivers/net/mii.o drivers/net/ether1008.o drivers/net/Space.o drivers/net/loopback.o drivers/net/wireless/built-in.o 

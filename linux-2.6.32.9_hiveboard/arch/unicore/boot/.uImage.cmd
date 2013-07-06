@@ -1,1 +1,0 @@
-cmd_arch/unicore/boot/uImage := /bin/bash /home/daniel/linux-2.6.32.9_hiveboard/scripts/mkuboot.sh -A unicore -O linux -T kernel -C none -a 0x41808000 -e 0x41808000 -n 'Linux-2.6.32.9' -d arch/unicore/boot/zImage arch/unicore/boot/uImage

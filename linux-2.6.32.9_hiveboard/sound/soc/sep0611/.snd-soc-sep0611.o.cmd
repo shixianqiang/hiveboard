@@ -1,1 +1,0 @@
-cmd_sound/soc/sep0611/snd-soc-sep0611.o := unicore32-linux-ld -EL    -r -o sound/soc/sep0611/snd-soc-sep0611.o sound/soc/sep0611/sep0611-pcm.o sound/soc/sep0611/sep0611-i2s.o sound/soc/sep0611/i2s_dma.o 
